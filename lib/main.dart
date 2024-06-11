@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
+import 'package:tinder_clone/pages/home_screen.dart';
 import 'package:tinder_clone/pages/splash_screen.dart';
 
 void main() {
@@ -12,11 +13,12 @@ class MainApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
       theme: ThemeData(
         fontFamily: GoogleFonts.montserrat().fontFamily,
       ),
       home: const Scaffold(
-        body: SplashScreen(),
+        body: Homepage(),
       ),
     );
   }

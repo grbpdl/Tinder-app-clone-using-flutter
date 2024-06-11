@@ -10,6 +10,10 @@ dependencies:
   flutter:
     sdk: flutter
   google_fonts: ^6.2.1
+  provider: ^6.1.2
+  fluttertoast: ^8.2.6
+  swipable_stack: ^2.0.0
+  carousel_slider: ^4.2.1
 
 dev_dependencies:
   flutter_test:
