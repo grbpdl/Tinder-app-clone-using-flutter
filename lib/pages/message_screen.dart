@@ -8,7 +8,7 @@ class Message extends StatelessWidget {
     return Container(
       child: ListView.builder(
         reverse: true,
-        itemCount: 2,
+        itemCount: 4,
         itemBuilder: (BuildContext context, int index) {
           if (index == 0) {
             return Align(
@@ -17,11 +17,12 @@ class Message extends StatelessWidget {
                 margin: const EdgeInsets.all(8.0),
                 padding: const EdgeInsets.all(8.0),
                 decoration: BoxDecoration(
-                  color: Colors.red,
+                  color: Color.fromARGB(255, 8, 152, 236),
                   borderRadius: BorderRadius.circular(8.0),
                 ),
                 child: Text(
                   'Hello',
+                  style: TextStyle(color: Colors.white),
                 ),
               ),
             );
@@ -32,11 +33,12 @@ class Message extends StatelessWidget {
               margin: const EdgeInsets.all(8.0),
               padding: const EdgeInsets.all(8.0),
               decoration: BoxDecoration(
-                color: Colors.red,
+                color: Color.fromARGB(255, 8, 152, 236),
                 borderRadius: BorderRadius.circular(8.0),
               ),
               child: Text(
                 'Hi!',
+                style: TextStyle(color: Colors.white),
               ),
             ),
           );

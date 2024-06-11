@@ -18,7 +18,7 @@ class MainApp extends StatelessWidget {
         fontFamily: GoogleFonts.montserrat().fontFamily,
       ),
       home: const Scaffold(
-        body: Homepage(),
+        body: SplashScreen(),
       ),
     );
   }
